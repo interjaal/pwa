@@ -3,6 +3,6 @@ window.onload = () => {
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('../sw.js');
+             .register('https://interjaal.github.io/pwa/sw.js');
   }
 }
